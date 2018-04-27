@@ -20,4 +20,4 @@ from . import views
 urlpatterns = [
     url('admin/', admin.site.urls),
     url('',views.HomeView.as_view(),name='home')
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
